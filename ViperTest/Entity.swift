@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct GreetingData {
     var name: String
     var surname: String

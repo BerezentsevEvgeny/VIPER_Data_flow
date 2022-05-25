@@ -16,7 +16,6 @@ protocol InteractorOutputProtocol: AnyObject {
     func prepareGreetingText(with greetingData: GreetingData)
 }
 
-
 class Interactor: InteractorInputProtocol {
     
     unowned var presenter: InteractorOutputProtocol

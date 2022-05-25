@@ -67,14 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				8CFFF337283EA01B0031B86C /* Supporting files */,
+				8CFFF33A283EAA400031B86C /* Storyboards */,
 				8CFFF31F283E941A0031B86C /* ViewController.swift */,
 				8CFFF32F283E94300031B86C /* Presenter.swift */,
 				8CFFF331283E943E0031B86C /* Interactor.swift */,
 				8CFFF333283E94F30031B86C /* Entity.swift */,
 				8CFFF338283EA25C0031B86C /* Router.swift */,
 				8CFFF335283E9C230031B86C /* Configurator.swift */,
-				8CFFF321283E941A0031B86C /* Main.storyboard */,
-				8CFFF326283E941B0031B86C /* LaunchScreen.storyboard */,
 			);
 			path = ViperTest;
 			sourceTree = "<group>";
@@ -88,6 +87,15 @@
 				8CFFF329283E941B0031B86C /* Info.plist */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		8CFFF33A283EAA400031B86C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8CFFF321283E941A0031B86C /* Main.storyboard */,
+				8CFFF326283E941B0031B86C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
