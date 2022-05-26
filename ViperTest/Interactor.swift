@@ -8,25 +8,25 @@
 import Foundation
 
 protocol InteractorInputProtocol {
-    func prepareGreeting()
+    func provideGreeting()
     init(presenter: InteractorOutputProtocol)
 }
 
 protocol InteractorOutputProtocol: AnyObject {
-    func prepareGreetingText(with greetingData: GreetingData)
+    func recieveGreetingData(with greetingData: GreetingData)
 }
 
 class Interactor: InteractorInputProtocol {
     
-    unowned var presenter: InteractorOutputProtocol
+    unowned let presenter: InteractorOutputProtocol
     
     required init(presenter: InteractorOutputProtocol) {
         self.presenter = presenter
     }
     
-    func prepareGreeting() {
-        let greetingData = GreetingData(name: "Jonn", surname: "Deer")
-        presenter.prepareGreetingText(with: greetingData)
+    func provideGreeting() {
+        let greetingData = GreetingData(name: "John", surname: "Deer")
+        presenter.recieveGreetingData(with: greetingData)
     }
     
     

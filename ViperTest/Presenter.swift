@@ -7,10 +7,14 @@
 
 import Foundation
 
+struct GreetingData {
+    var name: String
+    var surname: String
+}
 
 class Presenter: ViewOutputProtocol, InteractorOutputProtocol {
     
-    unowned var view: ViewInputProtocol
+    unowned let view: ViewInputProtocol
     var interactor: InteractorInputProtocol!
     var router: RouterInputProtocol!
     
@@ -19,10 +23,10 @@ class Presenter: ViewOutputProtocol, InteractorOutputProtocol {
     }
     
     func buttonDidtapped() {
-        interactor.prepareGreeting()
+        interactor.provideGreeting()
     }
     
-    func prepareGreetingText(with greetingData: GreetingData) {
+    func recieveGreetingData(with greetingData: GreetingData) {
         let greetingToPresent = "Hello, \(greetingData.name) \(greetingData.surname) !"
         view.setLabelText(with: greetingToPresent)
     }

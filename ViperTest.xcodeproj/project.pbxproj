@@ -15,7 +15,6 @@
 		8CFFF328283E941B0031B86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFFF326283E941B0031B86C /* LaunchScreen.storyboard */; };
 		8CFFF330283E94300031B86C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFF32F283E94300031B86C /* Presenter.swift */; };
 		8CFFF332283E943E0031B86C /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFF331283E943E0031B86C /* Interactor.swift */; };
-		8CFFF334283E94F30031B86C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFF333283E94F30031B86C /* Entity.swift */; };
 		8CFFF336283E9C230031B86C /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFF335283E9C230031B86C /* Configurator.swift */; };
 		8CFFF339283EA25C0031B86C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFFF338283EA25C0031B86C /* Router.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 		8CFFF329283E941B0031B86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CFFF32F283E94300031B86C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		8CFFF331283E943E0031B86C /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		8CFFF333283E94F30031B86C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		8CFFF335283E9C230031B86C /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
 		8CFFF338283EA25C0031B86C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +69,6 @@
 				8CFFF31F283E941A0031B86C /* ViewController.swift */,
 				8CFFF32F283E94300031B86C /* Presenter.swift */,
 				8CFFF331283E943E0031B86C /* Interactor.swift */,
-				8CFFF333283E94F30031B86C /* Entity.swift */,
 				8CFFF338283EA25C0031B86C /* Router.swift */,
 				8CFFF335283E9C230031B86C /* Configurator.swift */,
 			);
@@ -172,7 +169,6 @@
 				8CFFF339283EA25C0031B86C /* Router.swift in Sources */,
 				8CFFF320283E941A0031B86C /* ViewController.swift in Sources */,
 				8CFFF31C283E941A0031B86C /* AppDelegate.swift in Sources */,
-				8CFFF334283E94F30031B86C /* Entity.swift in Sources */,
 				8CFFF332283E943E0031B86C /* Interactor.swift in Sources */,
 				8CFFF336283E9C230031B86C /* Configurator.swift in Sources */,
 				8CFFF330283E94300031B86C /* Presenter.swift in Sources */,
